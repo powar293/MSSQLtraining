@@ -3,7 +3,8 @@ use InternMSSQLTraining
 
 select * from hr.Employees
 
--- hr.Employees table has PK named as PK_Employees created on EmployeeID column
+-- hr.Employees table has PK named as PK_Employees created on EmployeeID column   .
+   -- and two attributes is FirstNmae and Email
 
 EXEC sp_help 'hr.employees'
 
